@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+/* Nav bar */
+/* logo search child left */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+}
+.logo-search-child-left {
+  display: flex;
+  align-items: center;
+}
+.marketeta-logo {
+  height: 6.5vh;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.search-bar {
+  display: flex;
+  border-radius: 25px;
+  margin-left: 15px;
+  background-color: white;
+  padding-right: 15px;
+  border-style: solid;
+  border-color: #00b746;
+}
+.input-text {
+  height: 4.5vh;
+  border-radius: 25px;
+  width: 30vw;
+  padding-left: 15px;
+  border: 0px;
+}
+.input-text:focus {
+  outline: none;
+}
+.search-fav-bar {
+  display: flex;
+  align-items: center;
+}
+.search-fav {
+  height: 3vh;
+  cursor: pointer;
+}
+/* Logo search child right */
+
+.logo-search-child-right {
+  display: flex;
+  align-items: center;
+}
+.logo-notification-text:hover {
+  color: red;
+}
+.logo-notification-text {
+  margin-right: 50px;
+  padding-left: 5px;
+  color: #00b746;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.logo-notification-wrapper {
+  color: #00b746;
+}
+.bi-percent {
+  color: #00b746;
+}
+.bi-geo-alt {
+  color: #00b746;
+}
+
+/* Another nav-bar  */
+
+.another-top-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 8vh;
+  background-color: #00b79f;
+}
+.all-products {
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  height: 8vh;
+  background-color: #8bc5aa;
+  margin-left: 10vh;
+}
+.textproducts {
+  font-size: larger;
+  margin-left: 15vh;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.four-items-name {
+  display: flex;
+  align-items: center;
+  width: 80vw;
+  height: 8vh;
+  background-color: #00b79f;
+}
+.text {
+  padding-left: 20vh;
+  font-size: larger;
+  font-weight: bolder;
+  cursor: pointer;
+}
