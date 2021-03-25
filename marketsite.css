@@ -112,3 +112,34 @@ body {
   font-weight: bolder;
   cursor: pointer;
 }
+
+/* Incep sa fac main-wrapperul pentru pagina 1  */
+
+.main-wrapper-page-1 {
+    display: flex;
+}
+.left-side-bar {
+  width: 30.9vw;
+  height: 82vh;
+  background-color: aquamarine;
+}
+.foods{
+  display: flex;
+  align-items: center;
+  margin-top: 1.5vh;
+}
+.food-pic{
+  height: 5vh;
+  margin-left: 15px;
+  margin-top: 2vh;
+}
+.text-food{
+  margin-left: 5vh;
+  font-size: 3vh;
+}
+.text-alcool{
+  margin-left: 2vh ;
+  font-size: 3vh;
+}
+
+
