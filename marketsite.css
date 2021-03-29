@@ -4,6 +4,9 @@
 body {
   margin: 0px;
 }
+img {
+  user-select: none; /* Sa nu mai pot selecta lucrui de pe pagina  */
+}
 /* Nav bar */
 /* logo search child left */
 .top-bar {
@@ -116,30 +119,108 @@ body {
 /* Incep sa fac main-wrapperul pentru pagina 1  */
 
 .main-wrapper-page-1 {
-    display: flex;
+  display: flex;
 }
 .left-side-bar {
   width: 30.9vw;
-  height: 82vh;
-  background-color: aquamarine;
+  height: 74vh;
+  background-color: white;
 }
-.foods{
+.foods:hover {
+  border-top: groove;
+  border-bottom: groove;
+}
+.foods {
   display: flex;
   align-items: center;
   margin-top: 1.5vh;
+  margin-left: 20px;
 }
-.food-pic{
+.food-pic {
   height: 5vh;
   margin-left: 15px;
   margin-top: 2vh;
 }
-.text-food{
+.text-food:hover {
+  color: #00b79f;
+}
+.text-food {
   margin-left: 5vh;
-  font-size: 3vh;
+  font-size: 2vh;
+  font-weight: bolder;
+  cursor: pointer;
 }
-.text-alcool{
-  margin-left: 2vh ;
-  font-size: 3vh;
+.text-alcool:hover {
+  color: #00b79f;
 }
+.text-alcool {
+  margin-left: 2vh;
+  font-size: 2vh;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.bigger-sign-fav-alim {
+  height: 3vh;
+  margin-left: 30vh;
+  cursor: pointer;
+}
+.bigger-sign-fav-coke {
+  height: 3vh;
+  margin-left: 20vh;
+  cursor: pointer;
+}
+.bigger-sign-fav-alch {
+  height: 3vh;
+  margin-left: 23vh;
+  cursor: pointer;
+}
+.bigger-sign-fav-cigarettes {
+  height: 3vh;
+  margin-left: 26.5vh;
+  cursor: pointer;
+}
+.bigger-sign-fav-ice {
+  height: 3vh;
+  margin-left: 29vh;
+  cursor: pointer;
+}
+.bigger-sign-fav-products {
+  height: 3vh;
+  margin-left: 21vh;
+  cursor: pointer;
+}
+.bigger-sign-fav-products2 {
+  height: 3vh;
+  margin-left: 20.7vh;
+  cursor: pointer;
+}
+/* Incep sa fac main-wrapperul pentru pagina 2*/
 
+/* Footer pentru pagina 1 */
 
+.footer-page-1 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 8vh;
+  background-color: #00b79f;
+}
+.div-for-courier {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  width: 30vw;
+  background-color: #00b79f;
+  border-right: solid;
+  border-left: solid;
+  margin-top: 5px;
+}
+.courier-pic {
+  height: 6vh;
+  margin-left: 10vh;
+}
+.text-courier {
+  margin-left: 6vh;
+  font-size: large;
+  cursor: pointer;
+}
